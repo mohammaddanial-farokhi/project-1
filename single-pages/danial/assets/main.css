@@ -1,0 +1,146 @@
+.divfont
+{
+    font-family: Roboto;
+    font-weight: bold;
+}
+.custom-div1
+{
+    background: url("../../danial/image/banner.jpg") no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-size:cover;
+	min-height: 550px;
+}
+.nav-item>a{
+    color: white;
+}
+.nav-item:hover>a{
+    color: #EF664D;
+}
+.nav-item>a.c-a1
+{
+    color: #EF664D;
+}
+.span1
+{
+    font-size: 4em;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+.span2
+{
+    font-size: 4em;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.span3
+{
+    font-size: 2em;
+    font-family: Montserrat;
+    font-weight: 200;
+}
+.imgdiv
+{
+    width: 60%;
+    border-radius: 50%;
+}
+.custom-h2{
+    font-size: 2em;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+@media screen and(max-width:576){
+    .custom-logo{
+        text-align: center !important
+    }
+}
+.custom-div2 {
+    height: 15px;
+    width: 100%; 
+    background-color: #DEDEDE; 
+  }
+.graphic {
+    width: 63%; 
+    background-color: #EF664D;
+    height: 15px;
+}
+.graphic-p
+{
+    font-size: 1.2em;
+ padding-right: 100%;
+}
+.custom-align-end{
+    align-self: flex-end !important;
+}
+.web{
+    width: 80%; 
+    background-color: #EF664D;
+    height: 15px;
+}
+.web-p
+{
+    font-size: 1.2em;
+    padding-right: 40%;
+}
+.html{
+    width: 90%; 
+    background-color: #EF664D;
+    height: 15px;
+}
+.html-p
+{
+    font-size: 1.2em;
+    padding-right: 15%;
+}
+.card-img
+{
+    width: 40%;
+    border-radius: 50%;
+}
+.custom-div3
+{
+    background-color: #2E3E4E;
+}
+.foot-div{
+    justify-content: center;
+    border-top: 3px solid #2E3E4E;
+
+}
+.card-ul
+{
+    display: inline-block;
+    list-style: circle;
+}
+.custom-numbers{
+    font-size: 3em;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.social
+{
+    width: 5%;
+}
+
+.social-ul
+{
+    display: inline;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.social-li
+{
+    display: inline !important;
+}
+.footer-p1{
+    font-size: 2.5em;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+.footer-p2{
+    opacity: .7;
+}
