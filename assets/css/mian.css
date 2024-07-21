@@ -1,0 +1,47 @@
+body{
+    background-color: #282A30;
+}
+.white-text
+{
+    color: white;
+}
+.head-contain{
+    text-align: center;
+}
+.main-contain{
+    max-width: 1200px;
+    display: flex ;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.up-banner{
+    max-width: 350px;
+    
+}
+.banner-img{
+    max-width: 350px;
+    height: 400px;
+    
+}
+.down-banner{
+    background-color: white;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 50px;
+}
+.margin-d-15
+{
+    margin-bottom: 40px;
+}
+a{
+    color: black;
+}
+.icons{
+    font-size: 30px;
+}
