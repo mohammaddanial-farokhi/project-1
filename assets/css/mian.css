@@ -1,47 +1,44 @@
-body{
-    background-color: #282A30;
+body {
+  background-color: #282a30;
 }
-.white-text
-{
-    color: white;
+.white-text {
+  color: white;
 }
-.head-contain{
-    text-align: center;
+.head-contain {
+  text-align: center;
 }
-.main-contain{
-    max-width: 1200px;
-    display: flex ;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-between;
+.main-contain {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
 }
-main{
-    display: flex;
-    justify-content: center;
+main {
+  display: flex;
+  justify-content: center;
 }
-.up-banner{
-    max-width: 350px;
-    
+.up-banner {
+  max-width: 350px;
 }
-.banner-img{
-    max-width: 350px;
-    height: 400px;
-    
+.banner-img {
+  max-width: 350px;
+  height: 400px;
 }
-.down-banner{
-    background-color: white;
-    max-width: 300px;
-    margin: 0 auto;
-    position: relative;
-    bottom: 50px;
+.down-banner {
+  background-color: rgb(226, 222, 222);
+  max-width: 300px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 50px;
+  border-radius: 20px;
 }
-.margin-d-15
-{
-    margin-bottom: 40px;
+.margin-d-15 {
+  margin-bottom: 40px;
 }
-a{
-    color: black;
+a {
+  color: black;
 }
-.icons{
-    font-size: 30px;
+.icons {
+  font-size: 30px;
 }
