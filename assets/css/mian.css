@@ -42,3 +42,24 @@ a {
 .icons {
   font-size: 30px;
 }
+.fixed-image {
+  width: 400px; 
+  height: auto; 
+  max-width: 100%; 
+  display: block; 
+  margin: 0 auto; 
+}
+.link{
+  text-decoration: none;
+}
+.font-size{
+  font-size: 1.2em;
+}
+.logo-img
+{
+
+  text-align: left;
+  display: inline;
+  background-color: rgb(226, 222, 222);
+  padding-bottom: 5px;
+}
