@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: linear-gradient(
+      rgba(212, 218, 223, 0.747),
+      rgba(249, 248, 248, 0.831)
+    ),
+    url(./img.png);
+
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  font-size: 24px;
+  padding: 5px;
+  justify-content: space-between;
+  display: flex;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.home {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 20px;
+}
+.title {
+  font-weight: 600;
+}
+
+.h1 {
+  padding-left: 200px;
+  padding-top: 300px;
+  font-size: 50px;
+}
+
+.h3 {
+  padding-left: 200px;
+}
+.bg {
+  background-color: rgba(218, 217, 216, 0.887);
+}
+
+/*------------------------------------------------------
+بخش معرفی خودم*/
+
+.About {
+  height: 950px;
+
+  justify-content: space-between;
+  display: flex;
+}
+.all-about {
+  padding-top: 150px;
+  padding-right: 200px;
+}
+
+.img-shiva {
+  width: 400px;
+  height: 400px;
+  margin-top: 150px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.h4 {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  color: rgb(151, 34, 34);
+}
+
+.h5 {
+  padding-left: 200px;
+  padding-top: 10px;
+  color: rgb(203, 148, 20);
+}
+.text-about {
+  padding-left: 270px;
+  margin-top: 15px;
+}
+
+/* ------------------------------------------------------
+ بخش راه ارتباطی */
+
+.connected {
+  background-color: rgba(237, 236, 236, 0.887);
+  margin-bottom: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 50px;
+  height: 450px;
+  border-radius: 30px;
+}
+
+.name {
+  text-align: center;
+}
+.relationship {
+  color: rgb(151, 34, 34);
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact {
+  font-size: 45px;
+}
+
+/*-----------------------------------------------------
+  فرم ارسال اطلاعات */
+
+.form {
+  margin-top: 30px;
+  padding-left: 150px;
+  display: flex;
+}
+.input {
+  width: 100%;
+  text-decoration: none;
+  padding-left: 10px;
+  font-family: Segoe Print;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.send1 {
+  margin-top: 20px;
+  margin-left: 800px;
+}
+
+.send {
+  border-radius: 10px;
+  background-color: rgb(162, 42, 42);
+  color: rgb(238, 241, 244);
+  padding: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* footer*/
+
+.footer {
+  background-color: rgba(154, 153, 153, 0.861);
+  height: 200px;
+}
+
+.item-connected {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  padding-top: 50px;
+}
+
+.email {
+  size: 100px;
+  padding-left: 400px;
+}
+
+.phone {
+  padding-right: 500px;
+  padding-top: 5px;
+}
+
+.icon {
+  width: 50px;
+}
+
+.connected-text {
+  color: rgb(165, 42, 42);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
