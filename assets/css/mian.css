@@ -24,6 +24,7 @@ body {
 }
 .head-contain {
   text-align: center;
+  margin-top: 50px;
 }
 .main-contain {
   max-width: 1200px;
@@ -31,7 +32,11 @@ body {
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-between;
+<<<<<<< HEAD
   margin-top: 60px;
+=======
+  margin-top: 50px;
+>>>>>>> 76a81c26aba5ce44ea7b1f1ff7f04bd08c255b1a
 }
 main {
   display: flex;
@@ -78,7 +83,11 @@ a {
   margin-bottom: 10px;
   text-align: left;
   display: inline;
+<<<<<<< HEAD
   /* background-color: rgb(226, 222, 222); */
+=======
+  width: 800px;
+>>>>>>> 76a81c26aba5ce44ea7b1f1ff7f04bd08c255b1a
   padding-bottom: 5px;
   width: 950px;
   margin-top: 50px;
@@ -90,9 +99,32 @@ p {
   margin-top: 0;
 }
 
+<<<<<<< HEAD
 .bita {
   margin-right: 200px;
 }
 .helia {
   margin-left: 200px;
+=======
+.title {
+  text-align: center;
+  font-size: 100px;
+  margin-top: 70px;
+  font-family: Arial Rounded MT Bold;
+  color: rgb(240, 249, 249);
+}
+.team {
+  color: rgb(198, 54, 54);
+}
+
+.bita {
+  margin-right: 160px;
+}
+.helia {
+  margin-left: 160px;
+}
+.hr {
+  margin: 150px;
+  margin-bottom: 0px;
+>>>>>>> 76a81c26aba5ce44ea7b1f1ff7f04bd08c255b1a
 }
