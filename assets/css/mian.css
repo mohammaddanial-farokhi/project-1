@@ -32,16 +32,11 @@ body {
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-between;
-<<<<<<< HEAD
-  margin-top: 60px;
-=======
-  margin-top: 50px;
->>>>>>> 76a81c26aba5ce44ea7b1f1ff7f04bd08c255b1a
 }
-main {
+/* .main {
   display: flex;
   justify-content: center;
-}
+} */
 .up-banner {
   max-width: 350px;
 }
@@ -60,9 +55,9 @@ main {
 .margin-d-15 {
   margin-bottom: 40px;
 }
-a {
+/* a {
   color: black;
-}
+} */
 .icons {
   font-size: 30px;
 }
@@ -83,11 +78,6 @@ a {
   margin-bottom: 10px;
   text-align: left;
   display: inline;
-<<<<<<< HEAD
-  /* background-color: rgb(226, 222, 222); */
-=======
-  width: 800px;
->>>>>>> 76a81c26aba5ce44ea7b1f1ff7f04bd08c255b1a
   padding-bottom: 5px;
   width: 950px;
   margin-top: 50px;
@@ -105,6 +95,7 @@ p {
 }
 .helia {
   margin-left: 200px;
+}
 =======
 .title {
   text-align: center;
