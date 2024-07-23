@@ -98,6 +98,13 @@
   margin-top: 15px;
 }
 
+/* ایمیل و شماره تلفن */
+
+.section-coneect {
+  height: 200px;
+  text-align: center;
+  display: contents;
+}
 /* ------------------------------------------------------
  بخش راه ارتباطی */
 
@@ -166,7 +173,6 @@
   text-align: center;
   justify-content: space-between;
   display: flex;
-  padding-top: 50px;
   font-size: 12px;
   padding-left: 100px;
 }
@@ -194,7 +200,7 @@
   color: rgb(0, 0, 0);
 }
 .footer-text {
-  margin-top: 30px;
+  margin-top: 80px;
   font-size: 28px;
   padding-left: 550px;
   font-weight: 800;
