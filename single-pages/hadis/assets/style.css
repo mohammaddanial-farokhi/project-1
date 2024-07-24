@@ -135,10 +135,12 @@ body {
     rgb(243, 156, 228) 100%
   );
   color: rgb(2, 22, 40);
-  padding-left: 600px;
+  /* padding-left: 600px; */
+
   height: 970px;
 }
-.about {
+.about , .About {
+  margin: 0 auto;
   text-align: center;
 }
 .about ul {
@@ -149,7 +151,6 @@ body {
   height: 200px;
   margin-top: 100px;
   border-radius: 50%;
-  margin-left: 100px;
   margin-right: 0px;
   margin-bottom: 40px;
 }
@@ -190,7 +191,7 @@ body {
   color: black;
   opacity: 0.9;
 }
-.social a:hover {
+.social a:hover  {
   background-color: black;
   transition: 0.5s;
 }
@@ -204,7 +205,9 @@ body {
 .footerNew ul {
   display: flex;
   justify-content: center;
+  list-style: none;
 }
+
 .footerNew ul li a {
   color: white;
   margin: 20px;
@@ -215,4 +218,8 @@ body {
 }
 .footerNew ul li a:hover {
   opacity: 1;
+}
+.footerlink:hover{
+  color: black;
+  transition: 0.5s;
 }
