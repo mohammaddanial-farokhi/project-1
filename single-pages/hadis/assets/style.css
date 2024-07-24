@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  color: aliceblue;
+  color: rgb(20, 3, 48);
 }
 .header {
   position: fixed;
@@ -21,14 +21,14 @@ body {
 }
 .logo {
   font-size: 25px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 600;
 }
 
 .navbar a {
   font-size: 18px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
@@ -36,11 +36,11 @@ body {
 }
 .navbar a:hover,
 .navbar a.active {
-  color: aqua;
+  color: rgb(2, 6, 120);
 }
 .home {
   height: 100vh;
-  background: url("../images/girl.jpg") no-repeat;
+  background: url("../images/bb.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -48,8 +48,12 @@ body {
   padding: 0 10%;
 }
 .home:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/girl.jpg") no-repeat;
+  color: black;
+  background: linear-gradient(
+      rgba(164, 208, 238, 0.2),
+      rgba(164, 208, 238, 0.2)
+    ),
+    url("../images/b.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -66,7 +70,7 @@ body {
 .home-content h3 {
   font-size: 24px;
   font-weight: 700;
-  color: aqua;
+  color: rgb(2, 6, 120);
 }
 .home-content p {
   font-size: 16px;
@@ -98,13 +102,13 @@ body {
 }
 .btn-box a:nth-child(2) {
   background: transparent;
-  color: rgb(38, 198, 226);
+  color: rgb(13, 2, 40);
 }
 .btn-box a:nth-child(2)::before {
   background: rgb(38, 198, 226);
 }
 .btn-box a:nth-child(2):hover {
-  color: rgb(13, 0, 28);
+  color: rgb(3, 3, 3);
 }
 .btn-box a::before {
   content: "";
@@ -113,7 +117,8 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background: rgb(13, 0, 28);
+  color: black;
+  background: rgb(17, 2, 156);
   z-index: -1;
   transition: 0.7s;
 }
@@ -122,4 +127,92 @@ body {
 }
 .btn-box a:hover:before {
   width: 100%;
+}
+.content-about {
+  background: linear-gradient(
+    rgb(246, 243, 245) 0%,
+    rgb(160, 222, 245) 40%,
+    rgb(243, 156, 228) 100%
+  );
+  color: rgb(2, 22, 40);
+  padding-left: 600px;
+  height: 970px;
+}
+.about {
+  text-align: center;
+}
+.about ul {
+  list-style-type: none;
+}
+.About img {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+}
+.About h4 {
+  color: rgb(2, 6, 248);
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.ul-about {
+  padding: 10px;
+  color: rgb(138, 4, 187);
+}
+.About h2 {
+  margin-bottom: 40px;
+}
+.about {
+  width: 400px;
+  margin-bottom: 50px;
+  height: 100%;
+}
+.footer {
+  background-color: blueviolet;
+  padding: 70px 30px 20px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 50px;
+}
+.social a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.social a:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.social a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+.footerNew {
+  margin: 30px 0;
+}
+.footerNew ul {
+  display: flex;
+  justify-content: center;
+}
+.footerNew ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  display: 0.7;
+  transition: 0.5s;
+}
+.footerNew ul li a:hover {
+  opacity: 1;
 }
